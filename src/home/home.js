@@ -18,7 +18,7 @@ const Home = ({version}) => {
         <>
             <div className={'home-container'}>
                 <div className={'home-inner-container'}>
-                    <video width="100%" height="100%" autoPlay loop muted className={'video-save'}>
+                    <video width="100%" height="100%" autoPlay loop muted playsinline className={'video-save'}>
                         <source src={video} type="video/mp4"/>
                     </video>
                 </div>

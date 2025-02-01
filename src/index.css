@@ -21,15 +21,12 @@
 .bg-verde-md{
   background: #004d24;
 }
-
 .bg-morado-md{
   background: #5C4B52;
 }
-
 .bg-terracota-md{
   background: #C2582B;
 }
-
 /*#C8986A
 #DB8D46
 
@@ -38,3 +35,11 @@
 
 #875986
 #725682*/
+
+.centrar-content{
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

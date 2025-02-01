@@ -1,29 +1,26 @@
 import React from 'react';
-
 import './home.css'
-const Home = () => {
+import video from './../assets/videos/save the date.mp4'
+
+const Home = ({version}) => {
+
+    React.useEffect(()=>{
+
+        if(version==="1")
+            document.title = 'Save the Date'
+        else
+            document.title = 'Aparta la Fecha'
+    })
+
     return (
         <>
-            {/* ______________________________________________________________________________________________________________*/}
-
-
-                {/*<link rel="preconnect" href="https://fonts.googleapis.com"/>
-                    <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
-                        <link
-                            href="https://fonts.googleapis.com/css2?family=Lobster&family=Sora:wght@100..800&display=swap"
-                            rel="stylesheet"/>*/}
-
-
-            {/* ______________________________________________________________________________________________________________*/}
-
-            <div className={"div-test-fonts"}>
-
-                <h1 className={"lobster-regular"}>Marely y Davis da</h1>
-
-                <h2 className={"sora"}>Nos complace invitarte a nuesta boda</h2>
-
+            <div className={'home-container'}>
+                <div className={'home-inner-container'}>
+                    <video width="100%" height="100%" autoPlay loop muted className={'video-save'}>
+                        <source src={video} type="video/mp4"/>
+                    </video>
+                </div>
             </div>
-
         </>
     );
 };

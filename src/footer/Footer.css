@@ -1,0 +1,16 @@
+.footer-md{
+    width: 100%;
+}
+
+.footer-bar-md{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+}
+
+.txt-footer-bar{
+    color: white;
+    font: normal normal 14px/19px md-text-font;
+}

@@ -14,10 +14,10 @@ root.render(
           <Header/>
           <Routes>
               {/*<Route path={'/'} element={ <p>home home home home</p> }/>*/}
-              <Route path={'/'} element={<Home version={"1"}/>}/>
-              <Route path={'/aparta-la-fecha'} element={<Home version={"2"}/>}/>
-              <Route path={'/save-the-date'} element={<Home version={"3"}/>}/>
-              <Route path={'*'} element={<Home/>}/>
+              <Route path={'/'} element={<Home version={"Mare & Davis"}/>}/>
+              <Route path={'/aparta-la-fecha'} element={<Home version={"Aparta la Fecha"}/>}/>
+              <Route path={'/save-the-date'} element={<Home version={"Save the Date"}/>}/>
+              <Route path={'*'}  element={<Home version={"Aparta la Fecha"}/>}/>
           </Routes>
           <Footer/>
       </BrowserRouter>

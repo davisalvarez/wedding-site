@@ -14,8 +14,9 @@ root.render(
           <Header/>
           <Routes>
               {/*<Route path={'/'} element={ <p>home home home home</p> }/>*/}
-              <Route path={'/save-the-date'} element={<Home version={"1"}/>}/>
+              <Route path={'/'} element={<Home version={"1"}/>}/>
               <Route path={'/aparta-la-fecha'} element={<Home version={"2"}/>}/>
+              <Route path={'/save-the-date'} element={<Home version={"3"}/>}/>
               <Route path={'*'} element={<Home/>}/>
           </Routes>
           <Footer/>

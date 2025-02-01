@@ -7,9 +7,11 @@ const Home = ({version}) => {
     React.useEffect(()=>{
 
         if(version==="1")
-            document.title = 'Save the Date'
-        else
+            document.title = 'Mare & Davis'
+        else if(version==="2")
             document.title = 'Aparta la Fecha'
+        else
+            document.title = 'Save the Date'
     })
 
     return (

@@ -1,0 +1,34 @@
+.fecha-invitacion{
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    width: 400px;
+}
+
+.div-fecha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.txt-lugar-mes {
+    width: 70px;
+    border-bottom: 1px solid #C2582B;
+    font-weight: bold;
+}
+
+
+.div-fecha > div{
+    width: 90px;
+    border-bottom: 1px solid #C2582B;
+    border-top: 1px solid #C2582B;
+}
+
+.div-fecha > div > p{
+    font-weight: bold;
+}
+
+.txt-dia-boda{
+    font: normal normal 50px/50px md-text-font;
+    color: #C2582B;
+}

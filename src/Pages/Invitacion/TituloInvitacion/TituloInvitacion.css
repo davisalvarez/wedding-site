@@ -1,0 +1,16 @@
+
+.leyenda-invitacion{
+    text-align: center;
+    font: normal normal 14px/20px md-text-font;
+    margin-bottom: 15px;
+}
+
+.foto-titulo{
+    height: 350px;
+    margin: 20px 0;
+}
+
+.y-invitacion{
+    font: normal normal 20px/20px md-text-font;
+    font-weight: bold;
+}

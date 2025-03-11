@@ -6,21 +6,22 @@ import Home from "./home/home";
 import Header from "./header/Header";
 import Footer from "./footer/Footer";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
+import Timer from "./timer/Timer";
+import Invitacion from "./Pages/Invitacion/Invitacion";
+import SaveTheDate from "./Pages/SaveTheDate/SaveTheDate";
+import video from "./assets/videos/save the date.mp4";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-      <BrowserRouter>
-          <Header/>
-          <Routes>
-              {/*<Route path={'/'} element={ <p>home home home home</p> }/>*/}
-              <Route path={'/'} element={<Home version={"Mare & Davis"}/>}/>
-              <Route path={'/aparta-la-fecha'} element={<Home version={"Aparta la Fecha"}/>}/>
-              <Route path={'/save-the-date'} element={<Home version={"Save the Date"}/>}/>
-              <Route path={'*'}  element={<Home version={"Aparta la Fecha"}/>}/>
-          </Routes>
-          <Footer/>
-      </BrowserRouter>
+      <Header/>
+
+      <div className={'home-container'}>
+          <div className={'home-inner-container'}>
+              <Home />
+          </div>
+      </div>
+      <Footer/>
   </React.StrictMode>
 );
 

@@ -1,10 +1,9 @@
 import React from 'react';
 import './home.css'
-import video from './../assets/videos/save the date.mp4'
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import SaveTheDate from "../Pages/SaveTheDate/SaveTheDate";
-import Invitacion from "../Pages/Invitacion/Invitacion";
 import Timer from "../timer/Timer";
+import InvitacionMaster from "../Pages/InvitacionMaster/InvitacionMaster";
 
 const Home = ({version}) => {
 
@@ -23,12 +22,12 @@ const Home = ({version}) => {
                     <Route path={'/aparta-la-fecha'} element={<SaveTheDate version={"Aparta la Fecha"} /> }/>
 
 
-                    <Route path={'/invitacion/*'} element={<Invitacion /> }/>
+                    <Route path={'/invitacion/*'} element={<InvitacionMaster /> }/>
 
                     <Route path={'/timer'} element={<Timer /> } />
 
 
-                    <Route path={'*'}  element={<Home version={"Aparta la Fecha"}/>}/>
+                    <Route path={'*'}  element={<SaveTheDate version={"Save the Date"} /> }/>
                 </Routes>
             </BrowserRouter>
         </>

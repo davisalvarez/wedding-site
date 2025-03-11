@@ -1,0 +1,164 @@
+
+.md-cronograma-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.md-actividad-right{
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.md-descripcion-right{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cronograma-img-right{
+    height: 150px;
+    justify-self: center;
+}
+.md-actividad-texto-right > h5{
+    font: normal bold 16px/16px md-text-font;
+    margin: 5px 0;
+}
+.md-actividad-texto-right > p{
+    margin: 5px 0;
+    text-align: justify;
+}
+
+
+
+
+.md-actividad-left{
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.md-descripcion-left{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cronograma-img-left{
+    height: 150px;
+    justify-self: center;
+}
+
+.md-actividad-hora-right{
+    font: normal bold 45px/45px md-text-font;
+    text-align: center;
+    color: #5C4B52;
+}
+
+
+
+.md-actividad-hora-left{
+    font: normal bold 45px/45px md-text-font;
+    text-align: center;
+}
+
+.md-actividad-texto-left > h5{
+    font: normal bold 16px/16px md-text-font;
+    margin: 5px 0;
+    text-align: right;
+}
+
+.md-actividad-texto-left > p{
+    margin: 5px 0;
+    text-align: justify;
+}
+
+.div-line-crono{
+    height: 3px;
+    border-bottom: 3px solid #5C4B52;
+}
+
+@media (max-width:600px){
+    .md-actividad-right{
+        grid-template-columns: 1fr;
+        grid-template-rows: 40% 60%;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    .md-descripcion-right{
+        grid-template-columns: 1fr;
+        grid-template-rows: 30% 70%;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .cronograma-img-right{
+        height: 150px;
+        justify-self: flex-start;
+    }
+
+    .md-descripcion-right > p{
+        text-align: left;
+    }
+
+    .md-actividad-texto-right{
+        /*border-bottom: 3px solid #5C4B52;*/
+    }
+
+
+    .md-actividad-left{
+        grid-template-columns: 1fr;
+        grid-template-rows: 40% 60%;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    .md-descripcion-left{
+        grid-template-columns: 1fr;
+        grid-template-rows: 30% 70%;
+        justify-content: center;
+        align-items: center;
+        grid-row: 2/3;
+
+    }
+
+    .cronograma-img-left{
+        height: 150px;
+        justify-self: flex-end;
+        grid-row: 1/2;
+    }
+
+    .md-actividad-hora-right{
+        text-align: left;
+        margin: 10px;
+    }
+
+    .md-actividad-texto-left{
+        grid-row: 2/3;
+
+    }
+    .md-actividad-hora-left{
+        grid-row: 1/2;
+        text-align: right;
+        margin: 10px;
+    }
+}
+
+

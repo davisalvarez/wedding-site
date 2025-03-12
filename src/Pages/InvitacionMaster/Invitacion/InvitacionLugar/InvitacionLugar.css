@@ -1,7 +1,11 @@
+.div-invitacion-lugar{
+    margin: 30px 0;
+}
 .fecha-invitacion{
     display: grid;
     grid-template-columns: 40% 20% 40%;
-    width: 400px;
+    max-width: 500px;
+    min-width: 300px;
 }
 
 .div-fecha{
@@ -31,4 +35,8 @@
 .txt-dia-boda{
     font: normal normal 50px/50px md-text-font;
     color: #C2582B;
+}
+
+.img-invitacion-lugar{
+    height: 150px;
 }

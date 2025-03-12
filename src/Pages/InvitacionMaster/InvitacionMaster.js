@@ -5,11 +5,11 @@ import Invitacion from "./Invitacion/Invitacion";
 
 
 const invitacion = {
-    "url": "familia-lemus",
+    "url": "mare-y-davis",
     "invitados":[
-        {"nombre": "Titulo Uno"},
-        {"nombre": "Titulo Dos"},
-        {"nombre": "Titulo Tres"}
+        {"nombre": "Davis Alvarez"},
+        {"nombre": "Marely Ramirez"},
+        {"nombre": "Fermin Aldeguer"}
     ]
 }
 const InvitacionMaster = () => {

@@ -9,14 +9,14 @@ import Footer from "./footer/Footer";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-      {/*<Header/>*/}
+      <Header/>
 
       <div className={'home-container'}>
           <div className={'home-inner-container'}>
               <Home />
           </div>
       </div>
-      {/*<Footer/>*/}
+      <Footer/>
   </React.StrictMode>
 );
 

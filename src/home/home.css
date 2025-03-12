@@ -21,34 +21,15 @@
 }
 
 @media (max-width: 1200px) {
+    .home-container{
+
+    }
+
     .home-inner-container{
         margin: 0 20px;
+        width: 100%;
     }
 }
 
-.home-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 300px;
 
-}
 
-.home-inner-container{
-    width: 1200px;
-}
-
-.video-save{
-    margin: 50px 0;
-}
-
-.h1-md{
-    margin-top: 40px;
-    font: normal normal 60px/60px md-tittle-font;
-}
-
-@media (max-width: 1200px) {
-    .home-inner-container{
-        margin: 0 20px;
-    }
-}

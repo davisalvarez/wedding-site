@@ -16,11 +16,14 @@
   /*background: #c2582b;*/
   /*background: #5c4b52;*/
   user-select: none;
+}
 
+html, body{
+  width: 100%;
 }
 
 h1{
-  font: normal normal 60px/60px md-tittle-font;
+  font: normal 60px/60px md-tittle-font;
   margin: 15px 0 25px 0;
 }
 
@@ -45,6 +48,7 @@ button{
   margin: 10px ;
   color: white;
   font: normal normal 14px/20px md-text-font;
+  border: none;
 }
 
 .btn-primary{

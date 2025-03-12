@@ -4,19 +4,19 @@ import Invitacion from "./Invitacion/Invitacion";
 
 
 
-const invitacion = {
+/*const invitacion = {
     "url": "mare-y-davis",
     "invitados":[
         {"nombre": "Davis Alvarez"},
         {"nombre": "Marely Ramirez"},
         {"nombre": "Fermin Aldeguer"}
     ]
-}
+}*/
 const InvitacionMaster = () => {
     return (
         <>
             <Routes>
-                <Route path={invitacion.url} element={<Invitacion invitados={invitacion.invitados} />} />
+                <Route path={"mare-y-davis"} element={<Invitacion  />} />
             </Routes>
         </>
     );

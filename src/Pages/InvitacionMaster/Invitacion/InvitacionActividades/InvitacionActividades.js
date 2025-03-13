@@ -1,6 +1,6 @@
 import React from 'react';
 import './InvitacionActividades.css'
-import img_recepcion from './../../../../assets/img/traje-de-boda.png'
+import img_novios from './../../../../assets/img/boda.png'
 import img_arco from './../../../../assets/img/arco.png'
 import img_copas from './../../../../assets/img/copas-de-champan.png'
 import img_banquete from './../../../../assets/img/banquete.png'
@@ -12,13 +12,13 @@ const InvitacionActividades = () => {
         <>
             <div className={"md-cronograma-container"}>
                 <div className={"md-actividad-right"}>
-                    <img className={"cronograma-img-right"} src={img_recepcion} />
+                    <img className={"cronograma-img-right"} src={img_arco} />
                     <div className={'md-descripcion-right'}>
                         <p className={'md-actividad-hora-right'}>16:30 </p>
                         <div className={'md-actividad-texto-right'}>
                             <h5>Recepción</h5>
                             <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                Queremos que disfrutes el inicio del evento sin prisas ni distracciones, por eso comenzaremos con una pequeña recepción. Será el momento perfecto para ponerte cómodo y compartir con los demás invitados antes de dar inicio a la ceremonia
                             </p>
                             <div className={'div-line-crono'}></div>
                         </div>
@@ -35,7 +35,7 @@ const InvitacionActividades = () => {
                         </div>
                         <p className={'md-actividad-hora-left'}>17:00 </p>
                     </div>
-                    <img className={"cronograma-img-left"} src={img_arco} />
+                    <img className={"cronograma-img-left"} src={img_novios} />
                 </div>
                 <div className={"md-actividad-right"}>
                     <img className={"cronograma-img-right"} src={img_copas} />

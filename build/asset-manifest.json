@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9f305bfc.css",
-    "main.js": "/static/js/main.515d99ed.js",
+    "main.css": "/static/css/main.fcd25de8.css",
+    "main.js": "/static/js/main.00d03037.js",
     "static/js/453.d6f3f4a8.chunk.js": "/static/js/453.d6f3f4a8.chunk.js",
     "static/media/save the date.mp4": "/static/media/save the date.7ec862e5173ff1388448.mp4",
     "static/media/Lobster-Regular.ttf": "/static/media/Lobster-Regular.03c38496322925fec242.ttf",
@@ -10,6 +10,7 @@
     "static/media/arco.png": "/static/media/arco.e2c009b183f0cd71ff1f.png",
     "static/media/banquete.png": "/static/media/banquete.f46516791bab4fc4e094.png",
     "static/media/pastel.png": "/static/media/pastel.4b6e1c697d56702ede46.png",
+    "static/media/boda.png": "/static/media/boda.ecbf8c4f63594c89be6c.png",
     "static/media/traje-de-boda.png": "/static/media/traje-de-boda.9209abb9cd3b0a1db760.png",
     "static/media/copas-de-champan.png": "/static/media/copas-de-champan.2b3b4f32104ccdfc70fc.png",
     "static/media/invitacion-de-boda.png": "/static/media/invitacion-de-boda.fdcc8ded31d35434f392.png",
@@ -17,12 +18,12 @@
     "static/media/regalo-de-bodas.png": "/static/media/regalo-de-bodas.ca38d45185ca08a359f1.png",
     "static/media/logo-md-white.svg": "/static/media/logo-md-white.fdfe720663b22efecc6bd2136a1b209a.svg",
     "index.html": "/index.html",
-    "main.9f305bfc.css.map": "/static/css/main.9f305bfc.css.map",
-    "main.515d99ed.js.map": "/static/js/main.515d99ed.js.map",
+    "main.fcd25de8.css.map": "/static/css/main.fcd25de8.css.map",
+    "main.00d03037.js.map": "/static/js/main.00d03037.js.map",
     "453.d6f3f4a8.chunk.js.map": "/static/js/453.d6f3f4a8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f305bfc.css",
-    "static/js/main.515d99ed.js"
+    "static/css/main.fcd25de8.css",
+    "static/js/main.00d03037.js"
   ]
 }

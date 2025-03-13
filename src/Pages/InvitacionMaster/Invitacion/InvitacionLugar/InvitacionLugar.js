@@ -1,6 +1,7 @@
 import React from 'react';
 import './InvitacionLugar.css'
 import img_lugar from './../../../../assets/img/lugar-de-la-boda.png'
+import img_tema from './../../../../assets/img/traje-de-boda.png'
 
 
 const InvitacionLugar = () => {
@@ -31,8 +32,8 @@ const InvitacionLugar = () => {
                 <img className={'img-invitacion-lugar'} src={img_lugar} alt={'Icono de pin de mapa'} />
 
 
-                <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                <p className={'text-invitacion-lugar'}>
+                    Tanto la ceremonia como la recepción se celebrarán en el mismo lugar, por lo que queremos compartirte la ubicación para que llegues sin inconvenientes. El sitio cuenta con parqueo, así que no tendrás que preocuparte por eso. Al llegar, solo menciona en la garita que asistes a la boda, y te permitirán el acceso sin problema
                 </p>
                 <button className={'btn-primary'}
                         onClick={()=>{
@@ -41,6 +42,14 @@ const InvitacionLugar = () => {
                         }>
                     Ubicación
                 </button>
+
+                <img className={'img-invitacion-lugar'} src={img_tema} alt={'Icono de pin de mapa'} />
+
+                <h4 className={'h4-alt'}>Nuestro tema</h4>
+
+                <p className={'text-invitacion-lugar'}>
+                    Para nuestra boda, hemos elegido una paleta de colores específica para la decoración. Si es posible, te agradeceríamos que evitaras estos tonos para que puedas destacar aún más en este día tan especial. Y recuerda, solo una persona tiene el privilegio de vestir de blanco en esta ocasión: ¡la novia!
+                </p>
 
             </div>
         </>

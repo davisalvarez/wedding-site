@@ -14,7 +14,6 @@ const Invitacion = ({invitados})=> {
             <InvitadosInvitacion invitados={invitados} />
             <InvitacionLugar />
             <InvitacionActividades />
-
             <InvitacionConfirmacion />
         </>
     );

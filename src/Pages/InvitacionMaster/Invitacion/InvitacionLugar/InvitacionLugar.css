@@ -39,4 +39,9 @@
 
 .img-invitacion-lugar{
     height: 150px;
+    margin: 20px;
+}
+.text-invitacion-lugar{
+    text-align: justify;
+    max-width: 600px;
 }

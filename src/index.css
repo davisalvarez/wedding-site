@@ -28,7 +28,7 @@ h1{
 }
 
 h3{
-  font: normal normal 40px/40px md-tittle-font;
+  font: normal normal 35px/35px md-tittle-font;
   margin: 10px 0 20px 0;
 }
 
@@ -45,7 +45,7 @@ p{
 button{
   height: 40px;
   min-width: 200px;
-  margin: 10px ;
+  margin: 35px 0 50px 0;
   color: white;
   font: normal normal 14px/20px md-text-font;
   border: none;
@@ -99,6 +99,10 @@ button{
 
 .centrar-text{
   text-align: center;
+}
+
+.justify-text{
+  text-align: justify;
 }
 
 

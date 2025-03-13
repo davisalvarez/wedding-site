@@ -7,8 +7,8 @@ const InvitacionConfirmacion = () => {
             <div className={'centrar-content-vertical'}>
                 <img className={'img-invitacion-lugar'} src={img_regalo} alt={'Icono de pin de mapa'} />
                 <h4 className={'h4-alt'}>Presentes</h4>
-                <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                <p className={'text-invitacion-lugar'}>
+                    Con mucho cariño, queremos compartir algunas ideas de regalos para nuestra boda. Así podremos evitar obsequios repetidos y asegurarnos de que cada detalle sea especial y útil en esta nueva etapa que comenzamos juntos. ¡Gracias por ser parte de este momento tan importante para nosotros!"
                 </p>
                 <button className={'btn-primary'}
                         onClick={()=>{
@@ -19,8 +19,6 @@ const InvitacionConfirmacion = () => {
                 </button>
 
             </div>
-
-
         </>
     );
 };

@@ -1,6 +1,7 @@
 import React from 'react';
 import {Route, Routes} from "react-router-dom";
 import Invitacion from "./Invitacion/Invitacion";
+import SaveTheDate from "../SaveTheDate/SaveTheDate";
 
 
 
@@ -16,7 +17,9 @@ const InvitacionMaster = () => {
     return (
         <>
             <Routes>
-                <Route path={"mare-y-davis"} element={<Invitacion  />} />
+                <Route path={"/mare-y-davis"} element={<Invitacion  />} />
+
+                <Route path={'*'}  element={<SaveTheDate version={"Save the Date"} /> }/>
             </Routes>
         </>
     );

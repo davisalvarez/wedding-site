@@ -26,7 +26,7 @@ const Home = ({version}) => {
                     <Route path={'/invitacion/*'} element={<InvitacionMaster /> }/>
 
                     <Route path={'/timer'} element={<Timer /> } />
-                    <Route path={"/mare-y-davis"} element={<Invitacion  />} />
+                    {/*<Route path={"/mare-y-davis"} element={<Invitacion  />} />*/}
 
                     <Route path={'*'}  element={<SaveTheDate version={"Save the Date"} /> }/>
                 </Routes>

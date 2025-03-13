@@ -11,7 +11,7 @@ const Invitacion = ({invitados})=> {
     return (
         <>
             <TituloInvitacion />
-            {/*<InvitadosInvitacion invitados={invitados} />*/}
+            <InvitadosInvitacion invitados={invitados} />
             <InvitacionLugar />
             <InvitacionActividades />
 

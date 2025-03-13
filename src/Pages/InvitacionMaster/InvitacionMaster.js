@@ -5,24 +5,25 @@ import SaveTheDate from "../SaveTheDate/SaveTheDate";
 
 
 
-/*const invitacion = {
+const invitacion = {
     "url": "mare-y-davis",
     "invitados":[
         {"nombre": "Davis Alvarez"},
         {"nombre": "Marely Ramirez"},
         {"nombre": "Fermin Aldeguer"}
     ]
-}*/
+}
 const InvitacionMaster = () => {
     return (
         <>
             <Routes>
-                <Route path={'/'}  element={<SaveTheDate version={"Save the Date"} /> }/>
 
-                <Route path={"/mare-y-davis"} element={<Invitacion  />} />
-
-                <Route path={'*'}  element={<SaveTheDate version={"Save the Date"} /> }/>
+                <Route path={"mare-y-davis"} element={<Invitacion invitados={invitacion.invitados} />} />
             </Routes>
+            {/*<Route path={'/'}  element={<SaveTheDate version={"Save the Date"} /> }/>*/}
+
+            {/*<Route path={'*'}  element={<SaveTheDate version={"Save the Date"} /> }/>*/}
+
         </>
     );
 };

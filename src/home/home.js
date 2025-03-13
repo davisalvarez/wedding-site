@@ -14,7 +14,7 @@ const Home = ({version}) => {
 
     return (
         <>
-            <BrowserRouter>
+            <BrowserRouter basename={'/'}>
                 <Routes>
                     <Route path={'/'} element={<Home version={"Mare & Davis"}/>}/>
 

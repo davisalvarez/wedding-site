@@ -4,6 +4,7 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 import SaveTheDate from "../Pages/SaveTheDate/SaveTheDate";
 import Timer from "../timer/Timer";
 import InvitacionMaster from "../Pages/InvitacionMaster/InvitacionMaster";
+import Invitacion from "../Pages/InvitacionMaster/Invitacion/Invitacion";
 
 const Home = ({version}) => {
 
@@ -25,7 +26,7 @@ const Home = ({version}) => {
                     <Route path={'/invitacion/*'} element={<InvitacionMaster /> }/>
 
                     <Route path={'/timer'} element={<Timer /> } />
-
+                    <Route path={"/mare-y-davis"} element={<Invitacion  />} />
 
                     <Route path={'*'}  element={<SaveTheDate version={"Save the Date"} /> }/>
                 </Routes>

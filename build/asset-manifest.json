@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "./static/css/main.875214f3.css",
+    "main.js": "./static/js/main.72c2c1c1.js",
+    "static/js/453.d6f3f4a8.chunk.js": "./static/js/453.d6f3f4a8.chunk.js",
+    "static/media/save the date.mp4": "./static/media/save the date.7ec862e5173ff1388448.mp4",
+    "static/media/Lobster-Regular.ttf": "./static/media/Lobster-Regular.03c38496322925fec242.ttf",
+    "static/media/Sora-VariableFont_wght.ttf": "./static/media/Sora-VariableFont_wght.e56298aec2e944c699d8.ttf",
+    "static/media/coche.png": "./static/media/coche.173b8e32e10795e06a85.png",
+    "static/media/arco.png": "./static/media/arco.e2c009b183f0cd71ff1f.png",
+    "static/media/banquete.png": "./static/media/banquete.f46516791bab4fc4e094.png",
+    "static/media/pastel.png": "./static/media/pastel.4b6e1c697d56702ede46.png",
+    "static/media/traje-de-boda.png": "./static/media/traje-de-boda.9209abb9cd3b0a1db760.png",
+    "static/media/copas-de-champan.png": "./static/media/copas-de-champan.2b3b4f32104ccdfc70fc.png",
+    "static/media/invitacion-de-boda.png": "./static/media/invitacion-de-boda.fdcc8ded31d35434f392.png",
+    "static/media/lugar-de-la-boda.png": "./static/media/lugar-de-la-boda.ca1e57a4a73f3c1c74fa.png",
+    "static/media/regalo-de-bodas.png": "./static/media/regalo-de-bodas.ca38d45185ca08a359f1.png",
+    "static/media/logo-md-white.svg": "./static/media/logo-md-white.fdfe720663b22efecc6bd2136a1b209a.svg",
+    "index.html": "./index.html",
+    "main.875214f3.css.map": "./static/css/main.875214f3.css.map",
+    "main.72c2c1c1.js.map": "./static/js/main.72c2c1c1.js.map",
+    "453.d6f3f4a8.chunk.js.map": "./static/js/453.d6f3f4a8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.875214f3.css",
+    "static/js/main.72c2c1c1.js"
+  ]
+}

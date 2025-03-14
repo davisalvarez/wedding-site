@@ -46,7 +46,7 @@ const TituloInvitacion = () => {
 
 
                 <p className={'leyenda-invitacion'}>
-                    Tenemos el honor de invitarte ti a celebrar nuestra boda
+                    Tenemos el honor de invitarte a ti a celebrar nuestra boda
                 </p>
             </div>
 

@@ -33,7 +33,8 @@ const InvitacionLugar = () => {
 
 
                 <p className={'text-invitacion-lugar'}>
-                    Tanto la ceremonia como la recepción se celebrarán en el mismo lugar, por lo que queremos compartirte la ubicación para que llegues sin inconvenientes. El sitio cuenta con parqueo, así que no tendrás que preocuparte por eso. Al llegar, solo menciona en la garita que asistes a la boda, y te permitirán el acceso sin problema
+                    Tanto la ceremonia como la recepción se celebrarán en el mismo lugar, por lo que queremos compartirte la ubicación para que llegues sin inconvenientes. El sitio cuenta con parqueo, así que no tendrás que preocuparte por eso.
+                    Al llegar, solo menciona en garita que asistes a la boda, y te permitirán el acceso sin problema.
                 </p>
                 <button className={'btn-primary'}
                         onClick={()=>{
@@ -48,7 +49,9 @@ const InvitacionLugar = () => {
                 <h4 className={'h4-alt'}>Nuestro tema</h4>
 
                 <p className={'text-invitacion-lugar'}>
-                    Para nuestra boda, hemos elegido una paleta de colores específica para la decoración. Si es posible, te agradeceríamos que evitaras estos tonos para que puedas destacar aún más en este día tan especial. Y recuerda, solo una persona tiene el privilegio de vestir de blanco en esta ocasión: ¡la novia!
+                    Para nuestra boda, hemos elegido una paleta de colores específica para la decoración.
+                    Te agradeceríamos que evitaras estos tonos para que puedas destacar aún más en este día tan especial.
+                    Y recuerda, solo una persona tiene el privilegio de vestir de blanco en esta ocasión: ¡La Novia!
                 </p>
 
             </div>

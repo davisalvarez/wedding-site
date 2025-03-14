@@ -27,7 +27,7 @@ const Home = ({version}) => {
 
                     <Route path={'/timer'} element={<Timer /> } />
 
-                    <Route path={'*'}  element={<SaveTheDate version={"Save the Date"} /> }/>
+                    <Route path={'*'}  element={<SaveTheDate version={"Save the Date!"} /> }/>
                 </Routes>
             </BrowserRouter>
         </>

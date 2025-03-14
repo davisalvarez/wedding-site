@@ -39,7 +39,7 @@ h3{
 }
 
 p{
-  font: normal normal 14px/20px md-text-font;
+  font: normal normal 16px/20px md-text-font;
 }
 
 button{
@@ -70,6 +70,16 @@ button{
 .bg-terracota-md{
   background: #C2582B;
 }
+.color-verde-md{
+  color: #004d24;
+}
+.color-morado-md{
+  color: #5C4B52;
+}
+.color-terracota-md{
+  color: #C2582B;
+}
+
 /*#C8986A
 #DB8D46
 

@@ -20,9 +20,6 @@ const InvitacionMaster = () => {
 
                 <Route path={"mare-y-davis"} element={<Invitacion invitados={invitacion.invitados} />} />
             </Routes>
-            {/*<Route path={'/'}  element={<SaveTheDate version={"Save the Date"} /> }/>*/}
-
-            {/*<Route path={'*'}  element={<SaveTheDate version={"Save the Date"} /> }/>*/}
 
         </>
     );

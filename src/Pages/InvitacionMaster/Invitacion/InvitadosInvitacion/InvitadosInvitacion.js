@@ -19,7 +19,8 @@ const InvitadosInvitacion = ({invitados}) => {
                 <img className={'img-invitacion-lugar'} src={img_invitacion} alt={'Icono de pin de mapa'} />
 
                 <p  className={'text-invitacion-lugar'}>
-                    Este día será muy especial para nosotros, y queremos asegurarnos de recibirte de la mejor manera. Por eso, te pedimos que confirmes tu asistencia antes del 22 de marzo. ¡Esperamos contar contigo!"
+                    Este día será muy especial para nosotros, y queremos asegurarnos de recibirte de la mejor manera.
+                    Por eso, te pedimos que confirmes tu asistencia antes del 21 de marzo. ¡Esperamos contar contigo!"
                 </p>
                 <button className={'btn-primary'}
                         onClick={()=>{

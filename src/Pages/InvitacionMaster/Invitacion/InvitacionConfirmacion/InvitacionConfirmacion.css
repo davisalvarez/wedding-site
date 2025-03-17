@@ -1,0 +1,35 @@
+.text-leyenda{
+    align-self: center;
+    font: normal normal 20px/30px md-tittle-font;
+    margin: 40px 0;
+    grid-column: 2/3;
+}
+
+.text-leyenda > span{
+    font: normal normal 15px/30px md-tittle-font;
+}
+
+.img-ramo-final{
+    height: 200px;
+    grid-column: 3/4;
+}
+
+.col-3{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+}
+
+@media (max-width: 800px) {
+    .col-3{
+        grid-template-columns: 60% 40%;
+    }
+
+    .text-leyenda{
+        grid-column: 1/2;
+    }
+    .img-ramo-final{
+        grid-column: 2/3;
+        height: 150px;
+    }
+}

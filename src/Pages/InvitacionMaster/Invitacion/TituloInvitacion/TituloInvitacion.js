@@ -1,5 +1,7 @@
 import React from 'react';
 import './TituloInvitacion.css'
+import img_davisymare from './../../../../assets/img/myd.JPG'
+import img_davisymare2 from './../../../../assets/img/myd2.jpg'
 
 const TituloInvitacion = () => {
     return (
@@ -14,7 +16,7 @@ const TituloInvitacion = () => {
                     ¡Nos vamos a casar!
                 </p>
 
-                <img className={'foto-titulo'} src={'https://cdn0.matrimonio.com.co/article-vendor/4333/3_2/1280/jpg/-j9a7130_10_124333-1562127681.webp'} />
+                <img className={'foto-titulo'} src={img_davisymare} />
 
                 <p className={'leyenda-invitacion'}>
                     Con la bendición de Dios y de nuestros padres
@@ -42,7 +44,7 @@ const TituloInvitacion = () => {
                 </h3>
                 <h1 className={'centrar-text'}>Jonathan Davis Alvarez Orozco</h1>
 
-                <img className={'foto-titulo'} src={'https://cdn0.matrimonio.com.co/article-vendor/4333/3_2/1280/jpg/-j9a7130_10_124333-1562127681.webp'} />
+                <img className={'foto-titulo-vertical'} src={img_davisymare2} />
 
 
                 <p className={'leyenda-invitacion'}>

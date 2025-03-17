@@ -1,6 +1,7 @@
 import React from 'react';
 import './InvitadosInvitacion.css'
 import img_invitacion from "../../../../assets/img/invitacion-de-boda.png";
+import img_vineta from "../../../../assets/img/logo-md/flor-vineta.jpg";
 
 const InvitadosInvitacion = ({invitados}) => {
 
@@ -8,13 +9,18 @@ const InvitadosInvitacion = ({invitados}) => {
 
     return (
         <>
-            {invitados.map(a =>{
-                return(
-                    <h3 key={a.nombre} className={'centrar-text h3-text'}>
-                        {a.nombre}
-                    </h3>
-                )
-            })}
+            <div className={'centrar-content-vertical'}>
+                {invitados.map(a =>{
+                    return(
+                        <div  className={'div-invitados'}>
+                            <img className={'img-vineta'} src={img_vineta}/>
+                            <h3 key={a.nombre} className={'h3-text'}>
+                                {a.nombre}
+                            </h3>
+                        </div>
+                    )
+                })}
+            </div>
             <div className={'centrar-content-vertical'}>
                 <img className={'img-invitacion-lugar'} src={img_invitacion} alt={'Icono de pin de mapa'} />
 

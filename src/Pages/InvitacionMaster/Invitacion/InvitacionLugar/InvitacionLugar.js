@@ -2,6 +2,7 @@ import React from 'react';
 import './InvitacionLugar.css'
 import img_lugar from './../../../../assets/img/lugar-de-la-boda.png'
 import img_tema from './../../../../assets/img/traje-de-boda.png'
+import img_tema_paleta from './../../../../assets/img/PALETA NEGATIVA.png'
 
 
 const InvitacionLugar = () => {
@@ -48,11 +49,14 @@ const InvitacionLugar = () => {
 
                 <h4 className={'h4-alt'}>Nuestro tema</h4>
 
+                <p className={'centrar-text'} style={{margin:'10px 0', textDecoration: "underline", fontWeight: "bold"}}>Etiqueta: Formal</p>
                 <p className={'text-invitacion-lugar'}>
+
                     Para nuestra boda, hemos elegido una paleta de colores específica para la decoración.
                     Te agradeceríamos que evitaras estos tonos para que puedas destacar aún más en este día tan especial.
                     Y recuerda, solo una persona tiene el privilegio de vestir de blanco en esta ocasión: ¡La Novia!
                 </p>
+                <img className={'img-paleta'} src={img_tema_paleta}/>
 
             </div>
         </>

@@ -11,6 +11,13 @@
     max-height: 450px;
 }
 
+.foto-titulo-vertical{
+    height: 500px;
+    margin: 20px 0 50px 0;
+    max-height: 450px;
+
+}
+
 .y-invitacion{
     font: normal normal 20px/20px md-text-font;
     font-weight: bold;
@@ -20,10 +27,14 @@
     margin-bottom: 30px;
 }
 
-@media (max-width: 1200px){
+@media (max-width: 800px){
     .foto-titulo{
-        width: 100%;
-        height: 100%;
+        height: 200px;
+        margin: 20px 0 50px 0;
+    }
+
+    .foto-titulo-vertical{
+        height: 400px;
         margin: 20px 0 50px 0;
     }
 }

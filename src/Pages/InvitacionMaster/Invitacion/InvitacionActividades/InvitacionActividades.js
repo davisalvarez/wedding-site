@@ -63,14 +63,14 @@ const InvitacionActividades = () => {
                             </p>
                             <div className={'div-line-crono-verde'}></div>
                         </div>
-                        <p className={'md-actividad-hora-left color-verde-md'}>18:30 </p>
+                        <p className={'md-actividad-hora-left color-verde-md'}>19:00 </p>
                     </div>
                     <img className={"cronograma-img-left"} src={img_copas} />
                 </div>
                 <div className={"md-actividad-right"}>
                     <img className={"cronograma-img-right"} src={img_pastel} />
                     <div className={'md-descripcion-right'}>
-                        <p className={'md-actividad-hora-right color-terracota-md'}>19:30 </p>
+                        <p className={'md-actividad-hora-right color-terracota-md'}>20:00 </p>
                         <div className={'md-actividad-texto-right'}>
                             <h5 className={'color-terracota-md'}>Postre</h5>
                             <p>

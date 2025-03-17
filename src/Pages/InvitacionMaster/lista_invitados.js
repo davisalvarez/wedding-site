@@ -317,8 +317,10 @@ const lista = {
             "id": 38,
             "url": "juanito-y-diana",
             "invitados":[
-                {"nombre": "Juan Krin"},
-                {"nombre": "Diana de Krin"}
+                {"nombre": "Juan Krings"},
+                {"nombre": "Diana de Krings"},
+                {"nombre": "Diana Krings"},
+                {"nombre": "Santiago Krings"}
             ]
         },
         {

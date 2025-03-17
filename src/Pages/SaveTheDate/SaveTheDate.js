@@ -4,7 +4,8 @@ import video from "../../assets/videos/save the date.mp4";
 const SaveTheDate =({version}) => {
 
     React.useEffect(()=>{
-        document.title = version
+        if (version!==undefined)
+            document.title = version
     })
 
     return (

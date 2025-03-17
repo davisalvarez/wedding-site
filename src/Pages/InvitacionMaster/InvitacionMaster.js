@@ -12,7 +12,7 @@ const InvitacionMaster = () => {
                 {
                     lista.lista_invitados.map(inv =>{
                         return(
-                            <Route path={inv.url}
+                            <Route key={inv.id} path={inv.url}
                                    element={<Invitacion invitados={inv.invitados} />} />
                         )
                     })

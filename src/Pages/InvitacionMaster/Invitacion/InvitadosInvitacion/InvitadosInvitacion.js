@@ -6,7 +6,6 @@ import img_vineta from "../../../../assets/img/logo-md/flor-vineta.jpg";
 const InvitadosInvitacion = ({invitados}) => {
 
     React.useEffect(()=>{
-
         document.title = "Invitación | MD"
     }, [])
 
@@ -16,9 +15,9 @@ const InvitadosInvitacion = ({invitados}) => {
             <div className={'centrar-content-vertical'}>
                 {invitados.map(a =>{
                     return(
-                        <div  className={'div-invitados'}>
+                        <div key={a.nombre} className={'div-invitados'}>
                             <img className={'img-vineta'} src={img_vineta}/>
-                            <h3 key={a.nombre} className={'h3-text'}>
+                            <h3 className={'h3-text'}>
                                 {a.nombre}
                             </h3>
                         </div>

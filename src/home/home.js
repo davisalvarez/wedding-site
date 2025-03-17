@@ -9,7 +9,8 @@ import Invitacion from "../Pages/InvitacionMaster/Invitacion/Invitacion";
 const Home = ({version}) => {
 
     React.useEffect(()=>{
-        document.title = version
+        if (version!==undefined)
+            document.title = version
     })
 
     return (

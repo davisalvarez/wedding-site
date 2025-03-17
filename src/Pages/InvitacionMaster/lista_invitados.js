@@ -227,9 +227,9 @@ const lista = {
         },
         {
             "id": 28,
-            "url": "Kevin Sanchez",
+            "url": "kevin-sanchez",
             "invitados":[
-                {"nombre": "kevin-sanchez"}
+                {"nombre": "Kevin Sanchez"}
             ]
         },
         {

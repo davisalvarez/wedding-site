@@ -596,10 +596,12 @@ const lista = {
         },
         {
             "id": 71,
-            "url": "familia-jolon",
+            "url": "familia-gonzalez",
             "invitados":[
-                {"nombre": "Luna Jolon"},
-                {"nombre": "Y Familia"}
+                {"nombre": "Luna de Gonzalez"},
+                {"nombre": "Elemer Gonzalez"},
+                {"nombre": "Diego Gonzalez"},
+                {"nombre": "Emiliano Gonzalez"}
             ]
         }
     ]

@@ -29,7 +29,7 @@ const InvitadosInvitacion = ({invitados}) => {
 
                 <p  className={'text-invitacion-lugar'}>
                     Este día será muy especial para nosotros, y queremos asegurarnos de recibirte de la mejor manera.
-                    Por eso, te pedimos que confirmes tu asistencia antes del 21 de abril. ¡Esperamos contar contigo!"
+                    Por eso, te pedimos que confirmes tu asistencia antes del 21 de marzo. ¡Esperamos contar contigo!"
                 </p>
                 <button className={'btn-primary'}
                         onClick={()=>{

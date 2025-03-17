@@ -75,7 +75,8 @@ const lista = {
             "url": "carlos-y-amarilis",
             "invitados":[
                 {"nombre": "Carlos Orozco"},
-                {"nombre": "Amarilis de Orozco"}
+                {"nombre": "Amarilis de Orozco"},
+                {"nombre": "Abuelo Maximo"}
             ]
         },
         {
@@ -310,7 +311,8 @@ const lista = {
             "url": "tobal-y-raquel",
             "invitados":[
                 {"nombre": "Cristobal Montejo"},
-                {"nombre": "Raquel de Montejo"}
+                {"nombre": "Raquel de Montejo"},
+                {"nombre": "Santiaguito Montejo"}
             ]
         },
         {

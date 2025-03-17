@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c368e210.css",
-    "main.js": "/static/js/main.6f496e51.js",
+    "main.css": "/static/css/main.49d0df5f.css",
+    "main.js": "/static/js/main.46d5845f.js",
     "static/js/453.d6f3f4a8.chunk.js": "/static/js/453.d6f3f4a8.chunk.js",
     "static/media/save the date.mp4": "/static/media/save the date.7ec862e5173ff1388448.mp4",
     "static/media/myd.JPG": "/static/media/myd.80f6de80508c0421b038.JPG",
@@ -23,12 +23,12 @@
     "static/media/PALETA NEGATIVA.png": "/static/media/PALETA NEGATIVA.36bc84e3b5a8a9add302.png",
     "static/media/logo-md-white.svg": "/static/media/logo-md-white.2508e66457373c2ef121fdc26d4fd651.svg",
     "index.html": "/index.html",
-    "main.c368e210.css.map": "/static/css/main.c368e210.css.map",
-    "main.6f496e51.js.map": "/static/js/main.6f496e51.js.map",
+    "main.49d0df5f.css.map": "/static/css/main.49d0df5f.css.map",
+    "main.46d5845f.js.map": "/static/js/main.46d5845f.js.map",
     "453.d6f3f4a8.chunk.js.map": "/static/js/453.d6f3f4a8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c368e210.css",
-    "static/js/main.6f496e51.js"
+    "static/css/main.49d0df5f.css",
+    "static/js/main.46d5845f.js"
   ]
 }

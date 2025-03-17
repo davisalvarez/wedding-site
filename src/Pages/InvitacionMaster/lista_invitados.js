@@ -149,8 +149,7 @@ const lista = {
             "url": "eric-k",
             "invitados":[
                 {"nombre": "Eric Mendoza"},
-                {"nombre": "Y un acompañante"},
-                {"nombre": ""},
+                {"nombre": "Y un acompañante"}
             ]
         },
         {
@@ -228,7 +227,7 @@ const lista = {
         },
         {
             "id": 28,
-            "url": "kevin-sanchez",
+            "url": "Kevin Sanchez",
             "invitados":[
                 {"nombre": "kevin-sanchez"}
             ]
@@ -247,8 +246,8 @@ const lista = {
             "url": "tia-concha",
             "invitados":[
                 {"nombre": "Tía Concha"},
-                {"nombre": "Walter Alvarez"},
-                {"nombre": "Javier Alvarez"}
+                {"nombre": "Walter Jolon"},
+                {"nombre": "Javier Jolon"}
             ]
         },
         {
@@ -311,8 +310,7 @@ const lista = {
             "url": "tobal-y-raquel",
             "invitados":[
                 {"nombre": "Cristobal Montejo"},
-                {"nombre": "Raquel de Montejo"},
-                {"nombre": ""}
+                {"nombre": "Raquel de Montejo"}
             ]
         },
         {
@@ -320,8 +318,7 @@ const lista = {
             "url": "juanito-y-diana",
             "invitados":[
                 {"nombre": "Juan Krin"},
-                {"nombre": "Diana de Krin"},
-                {"nombre": ""}
+                {"nombre": "Diana de Krin"}
             ]
         },
         {
@@ -382,7 +379,7 @@ const lista = {
             "id": 45,
             "url": "ale-y-dany",
             "invitados":[
-                {"nombre": "Daniel Alvarez"},
+                {"nombre": "Daniela Alvarez"},
                 {"nombre": "Alejandro Reyes"}
             ]
         },
@@ -396,9 +393,9 @@ const lista = {
         },
         {
             "id": 47,
-            "url": "Gloria Lopez",
+            "url": "tia-gloria",
             "invitados":[
-                {"nombre": "tia-gloria"}
+                {"nombre": "Gloria Lopez"}
             ]
         },
         {
@@ -438,7 +435,7 @@ const lista = {
         },
         {
             "id": 52,
-            "url": "jhon-y-arlinne",
+            "url": "jhon-y-arlynne",
             "invitados":[
                 {"nombre": "Jhonatan Alvarez"},
                 {"nombre": "Arlynne Garcia"}
@@ -484,21 +481,21 @@ const lista = {
             "id": 57,
             "url": "lic",
             "invitados":[
-                {"nombre": "julio-mendoza"}
+                {"nombre": "Julio Mendoza"}
             ]
         },
         {
             "id": 58,
             "url": "melanie-juarez",
             "invitados":[
-                {"nombre": "Melani Juarez"}
+                {"nombre": "Melanie Juarez"}
             ]
         },
         {
             "id": 59,
-            "url": "Sandra Gomez",
+            "url": "sandra-gomez",
             "invitados":[
-                {"nombre": "sandra-gomez"}
+                {"nombre": "Sandra Gomez"}
             ]
         },
         {
@@ -595,6 +592,14 @@ const lista = {
             "url": "ps-hil",
             "invitados":[
                 {"nombre": "Hilberto Ratzan"}
+            ]
+        },
+        {
+            "id": 71,
+            "url": "familia-jolon",
+            "invitados":[
+                {"nombre": "Luna Jolon"},
+                {"nombre": "Y Familia"}
             ]
         }
     ]

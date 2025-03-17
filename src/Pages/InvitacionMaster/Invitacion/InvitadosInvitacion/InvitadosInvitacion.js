@@ -5,6 +5,10 @@ import img_vineta from "../../../../assets/img/logo-md/flor-vineta.jpg";
 
 const InvitadosInvitacion = ({invitados}) => {
 
+    React.useEffect(()=>{
+
+        document.title = "Invitación | MD"
+    }, [])
 
 
     return (

@@ -5,6 +5,8 @@ import img_flor from "../../../../assets/img/Ramo.png";
 
 
 const InvitacionConfirmacion = () => {
+
+
     return (
         <>
             <div className={'centrar-content-vertical'}>

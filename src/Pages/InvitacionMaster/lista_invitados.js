@@ -607,6 +607,14 @@ const lista = {
                 {"nombre": "Diego Gonzalez"},
                 {"nombre": "Emiliano Gonzalez"}
             ]
+        },
+        {
+            "id": 72,
+            "url": "angelica",
+            "invitados":[
+                {"nombre": "Angelica Boloz"},
+                {"nombre": "Y un acompañante"}
+            ]
         }
     ]
 }

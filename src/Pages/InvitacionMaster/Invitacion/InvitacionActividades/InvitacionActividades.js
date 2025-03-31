@@ -21,7 +21,7 @@ const InvitacionActividades = () => {
                         <div className={'md-actividad-texto-right'}>
                             <h5 className={'color-verde-md'}>Bienvenida</h5>
                             <p>
-                                Queremos que disfrutes el inicio del evento sin prisas ni distracciones, por eso comenzaremos con una pequeña recepción. Será el momento perfecto para ponerte cómodo y compartir con los demás invitados antes de dar inicio a la ceremonia
+                                Para que disfrutes el inicio del evento sin prisas ni distracciones, comenzaremos con una pequeña recepción. Será una oportunidad ideal para ponerte cómodo, compartir con los demás invitados y registrarte para recibir tu kit de bienvenida antes de que inicie la ceremonia.
                             </p>
                             <div className={'div-line-crono-verde'}></div>
                         </div>
@@ -43,11 +43,12 @@ const InvitacionActividades = () => {
                 <div className={"md-actividad-right"}>
                     <img className={"cronograma-img-right"} src={img_banquete} />
                     <div className={'md-descripcion-right'}>
-                        <p className={'md-actividad-hora-right color-morado-md'}>18:00 </p>
+                        <p className={'md-actividad-hora-right color-morado-md'}>18:40 </p>
                         <div className={'md-actividad-texto-right'}>
-                            <h5 className={'color-morado-md'}>Banquete</h5>
+                            <h5 className={'color-morado-md'}>Brindis</h5>
                             <p>
-                                Queremos disfrutar de un momento especial de koinonía para celebrar nuestra unión. Nos encantaría compartir contigo un banquete especial, donde podremos seguir conviviendo y festejando juntos este día tan importante.
+                                El brindis es una hermosa tradición que nos permite expresar los buenos deseos y celebrar la unión de dos almas. Es un instante de alegría y conexión en el que todos los invitados se unen en un gesto de celebración.
+                                Por ello, nos encantaría que nos acompañaras para compartir este emotivo momento
                             </p>
                             <div className={'div-line-crono-morada'}></div>
                         </div>
@@ -56,10 +57,9 @@ const InvitacionActividades = () => {
                 <div className={"md-actividad-left"}>
                     <div className={'md-descripcion-left'}>
                         <div className={'md-actividad-texto-left'}>
-                            <h5 className={'color-verde-md'}>Brindis</h5>
+                            <h5 className={'color-verde-md'}>Banquete</h5>
                             <p>
-                                El brindis es una hermosa tradición que nos permite expresar los buenos deseos y celebrar la unión de dos almas. Es un instante de alegría y conexión en el que todos los invitados se unen en un gesto de celebración.
-                                Por ello, nos encantaría que nos acompañaras para compartir este emotivo momento
+                                Queremos disfrutar de un momento especial de koinonía para celebrar nuestra unión. Nos encantaría compartir contigo un banquete especial, donde podremos seguir conviviendo y festejando juntos este día tan importante.
                             </p>
                             <div className={'div-line-crono-verde'}></div>
                         </div>
@@ -70,7 +70,7 @@ const InvitacionActividades = () => {
                 <div className={"md-actividad-right"}>
                     <img className={"cronograma-img-right"} src={img_pastel} />
                     <div className={'md-descripcion-right'}>
-                        <p className={'md-actividad-hora-right color-terracota-md'}>20:00 </p>
+                        <p className={'md-actividad-hora-right color-terracota-md'}>20:45 </p>
                         <div className={'md-actividad-texto-right'}>
                             <h5 className={'color-terracota-md'}>Postre</h5>
                             <p>
@@ -91,7 +91,7 @@ const InvitacionActividades = () => {
                             </p>
                             <div className={'div-line-crono-morada'}></div>
                         </div>
-                        <p className={'md-actividad-hora-left color-morado-md'}>21:00 </p>
+                        <p className={'md-actividad-hora-left color-morado-md'}>21:30 </p>
                     </div>
                     <img className={"cronograma-img-left"} src={img_carrito} />
                 </div>

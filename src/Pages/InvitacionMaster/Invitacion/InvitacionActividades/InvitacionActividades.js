@@ -41,7 +41,7 @@ const InvitacionActividades = () => {
                     <img className={"cronograma-img-left"} src={img_novios} />
                 </div>
                 <div className={"md-actividad-right"}>
-                    <img className={"cronograma-img-right"} src={img_banquete} />
+                    <img className={"cronograma-img-right"} src={img_copas} />
                     <div className={'md-descripcion-right'}>
                         <p className={'md-actividad-hora-right color-morado-md'}>18:40 </p>
                         <div className={'md-actividad-texto-right'}>
@@ -65,7 +65,7 @@ const InvitacionActividades = () => {
                         </div>
                         <p className={'md-actividad-hora-left color-verde-md'}>19:00 </p>
                     </div>
-                    <img className={"cronograma-img-left"} src={img_copas} />
+                    <img className={"cronograma-img-left"} src={img_banquete} />
                 </div>
                 <div className={"md-actividad-right"}>
                     <img className={"cronograma-img-right"} src={img_pastel} />
